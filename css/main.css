@@ -1,0 +1,76 @@
+div.board {
+  
+  float: left;
+  width: 500px;
+  margin: 0px 10px 10px 0px;
+  padding: 2px;
+  background-color: #CCC;
+
+}
+
+div.board.winner {
+
+  background-color: yellow;
+  transition: background 1s ease;
+
+}
+
+div.number_column {
+
+  float: left;
+  width: 80%;
+
+}
+
+div.number_column div.column {
+
+  float: left;
+
+}
+
+div.number {
+
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  padding: 10px 5px 0px;
+  font-family: arial;
+  font-size: 15px;
+  text-align: center;
+  background-color: #FFF;
+
+}
+
+div.empty {
+
+  background-color: #AAA;
+
+}
+
+div.checked {
+
+  background-color: red;
+  transition: background 0.5s ease;
+
+}
+
+div.counter_column {
+
+  float: left;
+  width: 10%;
+  padding: 10px;
+
+}
+
+div.counter {
+
+  font-family: arial;
+  font-size: 40px;
+
+}
+
+div#drawList {
+
+  clear: both;
+
+}
